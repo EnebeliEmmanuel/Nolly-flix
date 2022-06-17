@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import "./style.css";
-const menuCard = ({ menuD }) => {
+const movieCard = ({ menuD }) => {
   return (
     <section className="main-card--cointainer">
       {menuD.map((item) => {
@@ -41,4 +41,4 @@ const menuCard = ({ menuD }) => {
   );
 };
 
-export default menuCard;
+export default movieCard;
