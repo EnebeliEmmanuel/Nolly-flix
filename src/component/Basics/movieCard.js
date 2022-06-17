@@ -1,12 +1,11 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./style.css";
 const movieCard = ({ menuD }) => {
   return (
     <section className="main-card--cointainer">
       {menuD.map((item) => {
-
-        const {id,name,category,image,likes,description,price} = item
-        const [like,uselike] = useState(0)
+        const { id, name, category, image, likes, description, price } = item;
+        const [like, uselike] = useState(0);
         return (
           <>
             <div className="card-container" key={id}>
@@ -30,7 +29,6 @@ const movieCard = ({ menuD }) => {
                     Like
                   </span>
                   <span className="card-tag subtle">{like}</span>
-                  
                 </div>
               </div>
             </div>
