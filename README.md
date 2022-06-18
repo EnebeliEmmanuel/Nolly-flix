@@ -1,6 +1,6 @@
 # Live link:
 
-https://melodious-dusk-7263b8.netlify.app/
+https://nolly-flix.vercel.app/
 
 
 #Task
