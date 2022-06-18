@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 const movieCard = ({ menuD }) => {
-  
-  // let store = [];
+  let store = [];
   return (
     <section className="main-card--cointainer">
       {menuD.map((item) => {
