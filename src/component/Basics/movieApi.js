@@ -5,7 +5,7 @@ const Movie = [
     name: "the redemption",
     category: "action",
     price: "12$",
-    likes: 6,
+    likes: 0,
   },
 
   {
@@ -14,7 +14,7 @@ const Movie = [
     name: "Africa's Tech Roots",
     category: "action",
     price: "20$",
-    likes: 8,
+    likes: 0,
   },
   {
     id: 3,
